@@ -1,0 +1,18 @@
+Build a file-based key-value data store that supports the basic CRD (create, read, and delete) operations. This data store is meant to be used as a local storage for one single process on one laptop. The data store must be exposed as a library to clients that can instantiate a class and work with the data store.
+
+To implement this task, A python file DB.py is developed with class named K. The class K consist create(), read(), readc(), delete() and modify() functions.
+
+
+Create(key, value)-This function is used to add the key - value pair in the file if the key already exist it will throw an error. This function regularly checks for the data size before adding an element.
+
+Read(key)-This function is use to read a data using key. If key doesn’t exist it will throw an error.
+
+Readc()-This function is use to display entire file and size of that data.
+
+Delete(key)-This function is use to delete the data using key reference. If key doesn’t exist, it will throw an error.
+
+Modify(key, value)- This function is use to modify the value of that particular key. If the key is not presented then it will throw an error.
+
+
+
+The result of the functions is store in a text file in the same location where ,the python file Stores, in the json format .
