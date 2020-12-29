@@ -5,12 +5,9 @@ x=y.K("json")
 x.create("Ram",25)
 #it will create an key-value pair
 a={"kesh":2,"san":3}
-
 x.create("raman",a,3600)
 #it will create a key-value pair where here value is an another dict
-
 x.read("raman")
-
 x.create("raman",26)
 #it will throw an error as it was already Existing
 x.create("java",50)
