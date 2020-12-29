@@ -13,5 +13,4 @@ Delete(key)-This function is use to delete the data using key reference. If key 
 Modify(key, value)- This function is use to modify the value of that particular key. If key doesn’t exist, it will throw an error.
 
 
-
 The result of the functions is store in a text file in the same location where ,the python file Stores, in the json format .
