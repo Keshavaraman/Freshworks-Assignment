@@ -2,7 +2,6 @@ Build a file-based key-value data store that supports the basic CRD (create, rea
 
 To implement this task, A python file DB.py is developed with class named K. The class K consist create(), read(), readc(), delete() and modify() functions.
 
-
 Create(key, value)-This function is used to add the key - value pair in the file if the key already exist it will throw an error. This function regularly checks for the data size before adding an element.
 
 Read(key)-This function is use to read a data using key. If key doesn’t exist it will throw an error.
