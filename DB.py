@@ -72,7 +72,7 @@ class K:
      for a in self.data:
          print(a+":"+str(self.data[a][0]))
 
-     print(os.stat(self.file).st_size)
+     print("file size :"+str(os.stat(self.file).st_size))
      with open(self.file, 'w') as json_file:
          json.dump(self.data, json_file)
      self.lock.release()
