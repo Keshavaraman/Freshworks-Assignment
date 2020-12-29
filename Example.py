@@ -39,6 +39,7 @@ error: given key does not exist in database. Please enter a valid key
 error: given key does not exist in database. Please enter a valid key
 Ram:25
 raman:{'kesh': 2, 'san': 3}
+file size:70
 [Finished in 1.458s]
 '''
 
@@ -50,6 +51,7 @@ key is successfully deleted
 error: given key does not exist in database. Please enter a valid key
 Ram:25
 raman:{'kesh': 2, 'san': 3}
+file size:70
 error: given key does not exist in database. Please enter a valid key
 [Finished in 1.469s]
 '''
