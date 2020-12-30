@@ -72,7 +72,7 @@ class K:
      for a in self.data:
       if(self.data[a][1]==0 or self.data[a][1]>time.time()):
        print(a+":"+str(self.data[a][0]))
-     print("file size :"+str(os.stat(self.file).st_size))
+     print("file size :"+str(os.stat(self.file).st_size)+"byte")
      self.lock.release()
 
 
