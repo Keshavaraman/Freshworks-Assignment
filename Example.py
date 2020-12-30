@@ -26,7 +26,6 @@ t2.start()
 
 x.readc()
 #It will read the entire data
-
 #output of this example with synchronized
 '''
 raman:{'kesh': 2, 'san': 3}
