@@ -70,11 +70,9 @@ class K:
           self.data= json.loads(dataq)
 
      for a in self.data:
-         print(a+":"+str(self.data[a][0]))
-
+      if(self.data[a][1]==0 or self.data[a][1]>time.time()):
+       print(a+":"+str(self.data[a][0]))
      print("file size :"+str(os.stat(self.file).st_size))
-     with open(self.file, 'w') as json_file:
-         json.dump(self.data, json_file)
      self.lock.release()
 
 
@@ -106,9 +104,7 @@ class K:
          else:
              stri=str(key)+":"+str(self.b[0])
              print(stri)
-     with open(self.file, 'w') as json_file:
-         json.dump(self.data, json_file)
-     self.lock.release()
+    self.lock.release()
 
 
 #-------------------------------------DELETE---------------------------------------------------------------------------
