@@ -9,7 +9,7 @@ class K:
      self.lock = Lock()
      self.data={}
      self.file=file_name+".txt"
-     self.f = open(self.file, "x")
+     open(self.file, "x").close()
 
 #data is place where we are going to store data in json formate
 #lock is used synchronization of data
